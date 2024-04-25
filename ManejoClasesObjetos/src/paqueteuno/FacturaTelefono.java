@@ -10,10 +10,15 @@ package paqueteuno;
  * @author reroes
  */
 public class FacturaTelefono {
+    private String nombresApellidos;
     private String numeroTelefono;
     private double minutosMes;
     private double valorMinuto;
     private double valorFactura;
+    
+    public void establecerNombresApellidos(String c){
+        nombresApellidos = c;
+    }
     
     public void establecerNumeroTelefono(String c){
         numeroTelefono = c;
@@ -28,12 +33,18 @@ public class FacturaTelefono {
     }
     
     // public void establecerValorFactura(){
-    public void calcularValorFactura(){
+    public void calcularValorFactura(){ /* No es necesario ponerle parametros  
+        ya que calcularValorFactura trabajara con los valores que tenga en ese 
+        instante */
         valorFactura = minutosMes * valorMinuto;
     }
     
     public String obtenerNumeroTelefono(){
         return numeroTelefono;
+    }
+    
+    public String obtenerNombresApellidos(){
+        return nombresApellidos;
     }
     
     public double obtenerMinutosMes(){
