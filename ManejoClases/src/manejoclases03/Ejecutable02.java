@@ -20,10 +20,14 @@ public class Ejecutable02 {
         h1.establecerNombre("Vaca Ortíz");
         h2.establecerNombre("Militar");
         h3.establecerNombre("Manuel IM");
-        
+        /*
+        El System.out.printf imprimira lo que el objeto h1 tendra si no se ha 
+        enviado ningun valor a algun atributo entonces imprimira los valores por 
+        defecto que tienen int(0), double(0.00), boolean(false), string('null') 
+        */
         System.out.printf("%s - %d - %.2f\n", h1.obtenerNombre(),
                 h1.obtenerNumeroCamas(), h1.obtenerPresupuesto());
-        
+        /*
         h1.establecerNombre("Hospital Vaca Ortíz");
         
         System.out.printf("%s - %d - %.2f\n", h1.obtenerNombre(),
@@ -33,7 +37,7 @@ public class Ejecutable02 {
         
         System.out.printf("%s - %d - %.2f\n", h2.obtenerNombre(),
                 h2.obtenerNumeroCamas(), h2.obtenerPresupuesto());
-        
+        */
         
     }
 }

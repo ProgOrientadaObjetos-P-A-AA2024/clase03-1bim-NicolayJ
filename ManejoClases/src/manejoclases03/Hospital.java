@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package manejoclases03;
-
+ 
 public class Hospital {
     private String nombre;
     private int numeroCamas;
