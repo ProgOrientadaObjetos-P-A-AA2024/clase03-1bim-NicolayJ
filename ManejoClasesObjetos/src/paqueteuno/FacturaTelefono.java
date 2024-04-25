@@ -44,7 +44,7 @@ public class FacturaTelefono {
     }
     
     public String obtenerNombresApellidos(){
-        return nombresApellidos;
+        return nombresApellidos; 
     }
     
     public double obtenerMinutosMes(){
